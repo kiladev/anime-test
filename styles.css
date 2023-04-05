@@ -1,0 +1,45 @@
+body{
+    background-color: #383d50;
+    width: 100vh;
+    height: 100vh;
+
+}
+
+.container { 
+    display: inline-block;
+    align-content: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text {
+    color: orange;
+    font-size: 2em;
+    font-family: monospace;
+    letter-spacing: 5px;
+    border-right: 5px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+        typing 2s steps(18),
+        cursor .4s step-end infinite alternate;
+}
+
+.container2 { display: inline-block;}
+.text2{
+    font-size: 1em;
+    font-family: monospace;
+    letter-spacing: 10px;
+    color: rgb(182, 118, 0);
+    }
+
+@keyframes cursor {
+    50% {   border-color: transparent}
+}
+
+@keyframes typing {
+    from {width: 0 }
+}
