@@ -2,6 +2,7 @@ body{
     background-color: #383d50;
     width: 100vh;
     height: 100vh;
+    animation: wallpaper 2.5s ease;
 
 }
 
@@ -41,6 +42,41 @@ body{
     font-family: monospace;
     letter-spacing: 10px;
     color: rgb(182, 118, 0);
+    animation: opacity 4s ease;
+    }
+
+    .horror {
+        position: absolute;
+        width: 20%;
+        height: 40%;
+        animation: opacity 3s ease;
+        left: 75%;
+        top: 60%;
+    }
+
+    @keyframes wallpaper {
+
+        0% {
+        background-color: black;
+        }
+        
+        100% {
+         background-color: #383d50;
+        }
+    }
+
+    @keyframes opacity {
+
+        0% {
+            opacity: 0%;
+        }
+
+        50% {
+            opacity: 0%;
+        }
+        100% {
+            opacity: 100%;
+        }
     }
 
 @keyframes cursor {
