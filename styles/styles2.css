@@ -83,17 +83,41 @@ body{
     }
 
     .Merch {
-        animation: anime 5s ease infinite;
-        align-content: center;
-        position: absolute;
-        left: 50%;
-        top: 40%;
-        transform: translate(-50%, -50%);
-        display: grid;
-        padding: 1rem;
-        text-shadow: 2px 2px 2px black;
-    }
+        display: inline-block;
+        width: 100%;
+        background: #eee;
+        color: #111;
+        padding: 50px; }
 
+        .Merch h1 {
+            animation: anime 5s ease infinite;
+        }
+        
+        .MerchP{
+            top: 25px;
+            padding: 50px;
+        }
+
+        .imgs {
+            width: 100%;
+            justify-content: center;
+            margin: auto;
+            display: flex;
+            grid-template-columns: repeat(3, 1fr);
+            
+        }
+
+        .slide {
+            height: 520px;
+            width: 935px;
+            overflow: hidden;
+            position: absolute;
+        }
+
+        .navigation {
+            position: absolute;
+        }
+       
     @keyframes anime {
         0% {
             color: crimson;
