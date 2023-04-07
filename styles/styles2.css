@@ -107,16 +107,6 @@ body{
             
         }
 
-        .slide {
-            height: 520px;
-            width: 935px;
-            overflow: hidden;
-            position: absolute;
-        }
-
-        .navigation {
-            position: absolute;
-        }
        
     @keyframes anime {
         0% {
